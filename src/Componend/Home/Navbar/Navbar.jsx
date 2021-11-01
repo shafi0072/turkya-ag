@@ -1,6 +1,7 @@
 import React from 'react';
+import './Navbar.scss';
 
-const Header = () => {
+const Navbar = () => {
     return (
         <div>
             
@@ -8,4 +9,4 @@ const Header = () => {
     );
 };
 
-export default Header;
+export default Navbar;
