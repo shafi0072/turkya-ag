@@ -1,11 +1,14 @@
 import logo from './logo.svg';
-import './App.css';
+
+import './App.scss';
 import Index from './Componend/Home/Index/Index';
 
 function App() {
   return (
-    <div>
+    <div className="App">
+      
       <Index/>
+
     </div>
   );
 }

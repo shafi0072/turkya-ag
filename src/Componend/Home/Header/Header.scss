@@ -1,0 +1,10 @@
+$image-url: url('../../../Resorce/images/Rectangle38.png');
+
+.headerBackground{
+    background-image: $image-url;
+    height: 1080px;
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

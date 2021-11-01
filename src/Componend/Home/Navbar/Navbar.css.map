@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,EAAE,CAAA;EACE,KAAK,EAAE,GAAG;CACb",
+    "mappings": "",
     "sources": [
-        "Navbar.scss"
+        "Navbar.scss",
+        "../../Style/_colors.scss"
     ],
     "names": [],
     "file": "Navbar.css"
