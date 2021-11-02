@@ -1,0 +1,26 @@
+@import '../../Style/colors';
+
+.examples-container{
+    background-image: url(../../../Resorce/images/cropped-20180323_183047-2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.examples-title{
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+.btm-border{
+    border-bottom: 3px solid $lime;
+}
+.icon{
+    align-self: flex-start;
+    margin-right: 7%;
+}
+h5{
+    color: $white;
+    font-weight: bold;
+}
+p{
+    color: $white;
+}
