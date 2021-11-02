@@ -45,7 +45,7 @@ const Slicks = () => {
             <Slider {...settings}>
                 <div>
                 <div className="card" style={{width: '18rem'}}>
-                    <img className="card-img-top" src={img1} alt=""/>
+                    <img className="card-img-top" style={{width:'100%'}} src={img1} alt=""/>
                     <div className="card-body">
                         <h6 className="card-text">CONCEPTION 3D/2D </h6>
                     </div>
@@ -53,7 +53,7 @@ const Slicks = () => {
                 </div>
                 <div>
                 <div className="card" style={{width: '18rem'}}>
-                    <img className="card-img-top" src={img2} alt=""/>
+                    <img className="card-img-top" style={{width:'100%'}} src={img2} alt=""/>
                     <div className="card-body">
                         <h6 className="card-text">IMPRESSION 3D</h6>
                     </div>
@@ -61,7 +61,7 @@ const Slicks = () => {
                 </div>
                 <div>
                 <div className="card" style={{width: '18rem'}}>
-                    <img className="card-img-top" src={img3} alt=""/>
+                    <img className="card-img-top" style={{width:'100%'}} src={img3} alt=""/>
                     <div className="card-body">
                         <h6 className="card-text customText">Développement de produit</h6>
                     </div>
@@ -69,7 +69,7 @@ const Slicks = () => {
                 </div>
                 <div>
                 <div className="card" style={{width: '18rem'}}>
-                    <img className="card-img-top" src={img1} alt=""/>
+                    <img className="card-img-top" style={{width:'100%'}} src={img1} alt=""/>
                     <div className="card-body">
                         <h6 className="card-text">CONCEPTION 3D/2D </h6>
                     </div>
@@ -77,7 +77,7 @@ const Slicks = () => {
                 </div>
                 <div>
                 <div className="card" style={{width: '18rem'}}>
-                    <img className="card-img-top" src={img2} alt=""/>
+                    <img className="card-img-top" style={{width:'100%'}} src={img2} alt=""/>
                     <div className="card-body">
                         <h6 className="card-text">IMPRESSION 3D</h6>
                     </div>
@@ -85,7 +85,7 @@ const Slicks = () => {
                 </div>
                 <div>
                 <div className="card" style={{width: '18rem'}}>
-                    <img className="card-img-top" src={img3} alt=""/>
+                    <img className="card-img-top" style={{width:'100%'}} src={img3} alt=""/>
                     <div className="card-body">
                         <h6 className="card-text customText">Développement de produit</h6>
                     </div>
