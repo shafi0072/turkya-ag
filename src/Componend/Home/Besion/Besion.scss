@@ -1,0 +1,25 @@
+@import '../../Style/colors';
+.textTransform{
+    text-transform: uppercase;
+}
+.besion{
+    border-bottom: 3px solid $lime;
+}
+.customBesion{
+    margin-top: 10%!important;
+}
+.besionPara{
+    
+    font-size: 17;
+    color: #404748;
+}
+.cardBorder{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 6px;
+    padding: 15px;
+}
+h6{
+    text-transform: uppercase;
+}
