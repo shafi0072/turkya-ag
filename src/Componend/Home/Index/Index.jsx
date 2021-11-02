@@ -10,11 +10,6 @@ const Index = () => {
             <Header/>
 
 
-            <Header/>
-
-            
-
-
         </div>
     );
 };
