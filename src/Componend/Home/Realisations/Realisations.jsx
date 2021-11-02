@@ -4,7 +4,7 @@ import './Realisations.scss'
 const Realisations = () => {
     return (
         <div>
-            gel
+            
         </div>
     );
 };
