@@ -26,19 +26,44 @@ const Slicks2 = () => {
             </div>
           </div>
           <div>
-            <h3>2</h3>
+          <div className="card cardBorder" style={{width: '18rem'}}>
+                    <img className="card-img-top" src={slick2} alt=""/>
+                    <div className="card-body">
+                        <h6 className="card-text">Usinage</h6>
+                    </div>
+            </div>
           </div>
           <div>
-            <h3>3</h3>
+          <div className="card cardBorder" style={{width: '18rem'}}>
+                    <img className="card-img-top" src={slick3} alt=""/>
+                    <div className="card-body">
+                        <h6 className="card-text">Métal en feuille</h6>
+                    </div>
+            </div>
           </div>
           <div>
-            <h3>4</h3>
+            <div className="card cardBorder" style={{width: '18rem'}}>
+                    <img className="card-img-top" src={slick1} alt=""/>
+                    <div className="card-body">
+                        <h6 className="card-text">Découpe Laser</h6>
+                    </div>
+            </div>
           </div>
           <div>
-            <h3>5</h3>
+          <div className="card cardBorder" style={{width: '18rem'}}>
+                    <img className="card-img-top" src={slick2} alt=""/>
+                    <div className="card-body">
+                        <h6 className="card-text">Usinage</h6>
+                    </div>
+            </div>
           </div>
           <div>
-            <h3>6</h3>
+          <div className="card cardBorder" style={{width: '18rem'}}>
+                    <img className="card-img-top" src={slick3} alt=""/>
+                    <div className="card-body">
+                        <h6 className="card-text">Métal en feuille</h6>
+                    </div>
+            </div>
           </div>
         </Slider>
       </div>
