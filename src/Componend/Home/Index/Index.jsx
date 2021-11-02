@@ -10,6 +10,9 @@ import Exemples from '../Exemples/Exemples';
 
 import PmeEnd from './../Pme/PmeEnd';
 import Realisations from '../Realisations/Realisations';
+import Livraison from '../Livraison/Livraison';
+import Contact from '../Contact/Contact';
+import Footer from '../Footer/Footer';
 
 
 
@@ -28,7 +31,9 @@ const Index = () => {
             <PmeMain/>
             <PmeEnd/>
             <Realisations/>
-
+            <Livraison/>
+            <Contact/>
+            <Footer/>
         </div>
     );
 };

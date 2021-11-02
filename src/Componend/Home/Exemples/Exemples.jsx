@@ -18,8 +18,8 @@ const Exemples = () => {
                         <div className="d-flex fustify-content-center align-items-center">
                             <img className="icon" src={Icon1} alt="" />
                             <div  className="text-left">
-                                <h5>Composants mécaniques</h5>
-                                <p>Pièces robustes renforcées de fibres composites (produits Markforged)Matériaux ESD (décharge électrostatique)Matériaux FR « flame resistant »</p>
+                                <h5 className="example-item-title">Composants mécaniques</h5>
+                                <p className="example-item-p">Pièces robustes renforcées de fibres composites (produits Markforged)Matériaux ESD (décharge électrostatique)Matériaux FR « flame resistant »</p>
                             </div>
                         </div>
                     </div>
@@ -27,8 +27,8 @@ const Exemples = () => {
                         <div className="d-flex fustify-content-center align-items-center">
                             <img className="icon" src={Icon2} alt="" />
                             <div  className="text-left">
-                                <h5>remplacement</h5>
-                                <p>Remplacement de pièces en rupture de stock Pièces pour réparation Pièces de rechange</p>
+                                <h5 className="example-item-title">remplacement</h5>
+                                <p className="example-item-p">Remplacement de pièces en rupture de stock Pièces pour réparation Pièces de rechange</p>
                             </div>
                         </div>
                     </div>
@@ -36,8 +36,8 @@ const Exemples = () => {
                         <div className="d-flex fustify-content-center align-items-center">
                             <img className="icon" src={Icon3} alt="" />
                             <div  className="text-left">
-                                <h5>Maquette de présentation</h5>
-                                <p>Projet d’architecture Preuve de concept Marketing</p>
+                                <h5 className="example-item-title">Maquette de présentation</h5>
+                                <p className="example-item-p">Projet d’architecture Preuve de concept Marketing</p>
                             </div>
                         </div>
                     </div>
@@ -47,8 +47,8 @@ const Exemples = () => {
                         <div className="d-flex fustify-content-center align-items-center">
                             <img className="icon" src={Icon4} alt="" />
                             <div  className="text-left">
-                                <h5>Prototypes fonctionnels</h5>
-                                <p>Pièces ou assemblages pour des tests fonctionnels, ergonomiques ou des preuves de concept</p>
+                                <h5 className="example-item-title">Prototypes fonctionnels</h5>
+                                <p className="example-item-p">Pièces ou assemblages pour des tests fonctionnels, ergonomiques ou des preuves de concept</p>
                             </div>
                         </div>
                     </div>
@@ -56,8 +56,8 @@ const Exemples = () => {
                         <div className="d-flex fustify-content-center align-items-center">
                             <img className="icon" src={Icon5} alt="" />
                             <div  className="text-left">
-                                <h5>Production</h5>
-                                <p>Outillage / GabaritsOutillage pour atelier de production Gabarit d’inspection, de production ou de test Outillage personnalisé / adapté pour atelier d’artisanat</p>
+                                <h5 className="example-item-title">Production</h5>
+                                <p className="example-item-p">Outillage / GabaritsOutillage pour atelier de production Gabarit d’inspection, de production ou de test Outillage personnalisé / adapté pour atelier d’artisanat</p>
                             </div>
                         </div>
                     </div>
@@ -65,8 +65,8 @@ const Exemples = () => {
                         <div className="d-flex fustify-content-center align-items-center">
                             <img className="icon" src={Icon6} alt="" />
                             <div  className="text-left">
-                                <h5>Projets spéciaux</h5>
-                                <p>Projet personnel ou professionnelProjet étudiant</p>
+                                <h5 className="example-item-title">Projets spéciaux</h5>
+                                <p className="example-item-p">Projet personnel ou professionnelProjet étudiant</p>
                             </div>
                         </div>
                     </div>
@@ -77,8 +77,8 @@ const Exemples = () => {
                         <div className="d-flex fustify-content-center align-items-center">
                             <img className="icon" src={Icon7} alt="" />
                             <div  className="text-left">
-                                <h5>Petites séries de production (+1 000)</h5>
-                                <p>Pré-production de pièces destinées à l’injection plastiques Production de pièces où l’achat de moules est difficilement justifiable Grande flexibilité sur la quantité de pièces commandées à chaque commande / livraisons progressives</p>
+                                <h5 className="example-item-title">Petites séries de production (+1 000)</h5>
+                                <p className="example-item-p">Pré-production de pièces destinées à l’injection plastiques Production de pièces où l’achat de moules est difficilement justifiable Grande flexibilité sur la quantité de pièces commandées à chaque commande / livraisons progressives</p>
                             </div>
                         </div>
                     </div>

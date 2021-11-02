@@ -1,0 +1,23 @@
+@import '../../Style/colors';
+
+.livraison-container{
+    background-image: url(../../../Resorce/images//Rectangle48.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10%;
+}
+.livraison-title{
+    color: $white;
+}
+.livraison-p{
+    color: $white;
+    opacity: .5;
+    margin: 3%;
+}
+.btm-border{
+    border-bottom: 3px solid $lime;
+}
+.btn{
+    background-color: $lime;
+}

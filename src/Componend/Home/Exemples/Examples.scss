@@ -17,12 +17,11 @@
     align-self: flex-start;
     margin-right: 7%;
 }
-h5{
+.example-item-title{
     color: $white;
     font-weight: 500;
     margin-bottom: 7%;
 }
-p{
-    color: $white;
-    opacity: .5;
+.example-item-p{
+    color: $white!important;
 }

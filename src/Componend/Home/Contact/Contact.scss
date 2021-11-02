@@ -1,0 +1,27 @@
+@import '../../Style/colors';
+.contact-textarea{
+    width: 100%;
+    padding: 3%;
+}
+.contact-button{
+    width: 100%!important;
+}
+.contact-icon-container{
+    width: 50px;
+}
+.location-icon{
+    width: 2rem;
+}
+.contact-icon{
+    padding-right: 4px;
+    margin-top: 1%;
+    align-self: flex-start;
+}
+.information-p{
+    height: 3rem;
+    padding-left: 2%;
+    border-left: 1px solid $dark;
+}
+.text-lime{
+    color: $lime;
+}

@@ -1,0 +1,29 @@
+@import '../../Style/colors';
+
+.footer-container{
+    border-bottom: 1px solid $light;
+}
+.footer-title-container{
+    border-right: 1px solid $light;
+}
+.footer-title{
+    color: $lime;
+}
+.footer-menu-items{
+    margin-left: 4%;
+}
+.footer-items-container{
+    list-style: none;
+    color: $dark;
+    padding: 0;
+}
+.footer-link{
+    display: inline-block;
+    margin-top: 2%;
+    color: $dark;
+    transition: all .3s ease;
+}
+.footer-link:hover{
+    color: $lime;
+    text-decoration: none;
+}
