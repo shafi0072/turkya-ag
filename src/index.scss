@@ -21,10 +21,12 @@
 
 body {
   margin: 0;
-  font-family: 'Montserrat',
-    sans-serif;
+  font-family: 'Poppins-regular', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+p, a{
+  font-family: 'Poppins-light', sans-serif;
 }
 
 code {

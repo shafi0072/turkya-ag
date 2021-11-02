@@ -1,0 +1,34 @@
+@import '../../Style/colors';
+@import '../../Style/classes';
+
+.navbar-container{
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+.navbar{
+    @extend .container-width;
+
+    &-brand{
+        color: $lime!important;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    &-menu-container{
+        height: 100%;
+    }
+}
+
+.nav-active{
+    height: 100%;
+    background-color: $lime;
+}
+.nav-item{
+    padding: 10px 0;
+    border-right: 1px solid $light;
+}
+.nav-item:last-child{
+    border-right: 0;
+}
+.navLogoFont{
+    font-family: Poppins;
+}
