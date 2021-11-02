@@ -1,4 +1,5 @@
 import React from 'react';
+import Besion from '../Besion/Besion';
 
 import Header from '../Header/Header';
 import Service from '../Service/Service';
@@ -12,6 +13,7 @@ const Index = () => {
             <Header/>
             <WhoWeAre/>
             <Service/>
+            <Besion/>
         </div>
     );
 };
