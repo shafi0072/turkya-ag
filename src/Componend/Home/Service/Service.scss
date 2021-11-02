@@ -1,0 +1,11 @@
+@import '../../Style/colors';
+
+.nos{
+    border-bottom: 3px solid $lime;
+}
+.detailsOfService{
+    color: #404748;
+}
+.customText{
+    text-decoration: to-upper-case($string: "");
+}
