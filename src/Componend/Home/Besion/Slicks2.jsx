@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component }  from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -12,14 +12,40 @@ const Slicks2 = () => {
         infinite: true,
         speed: 500,
         slidesToShow: 3,
-        slidesToScroll: 2
+        slidesToScroll: 2,
+        responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                initialSlide: 2
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
     };
     return (
         <div className="container mt-5">
         <Slider {...settings}>
           <div>
             <div className="card cardBorder" style={{width: '18rem'}}>
-                    <img className="card-img-top" src={slick1} alt=""/>
+                    <img className="card-img-top" style={{width:'100%'}} src={slick1} alt=""/>
                     <div className="card-body">
                         <h6 className="card-text">Découpe Laser</h6>
                     </div>
@@ -27,7 +53,7 @@ const Slicks2 = () => {
           </div>
           <div>
           <div className="card cardBorder" style={{width: '18rem'}}>
-                    <img className="card-img-top" src={slick2} alt=""/>
+                    <img className="card-img-top" style={{width:'100%'}} src={slick2} alt=""/>
                     <div className="card-body">
                         <h6 className="card-text">Usinage</h6>
                     </div>
@@ -35,7 +61,7 @@ const Slicks2 = () => {
           </div>
           <div>
           <div className="card cardBorder" style={{width: '18rem'}}>
-                    <img className="card-img-top" src={slick3} alt=""/>
+                    <img className="card-img-top" style={{width:'100%'}} src={slick3} alt=""/>
                     <div className="card-body">
                         <h6 className="card-text">Métal en feuille</h6>
                     </div>
@@ -43,7 +69,7 @@ const Slicks2 = () => {
           </div>
           <div>
             <div className="card cardBorder" style={{width: '18rem'}}>
-                    <img className="card-img-top" src={slick1} alt=""/>
+                    <img className="card-img-top" style={{width:'100%'}} src={slick1} alt=""/>
                     <div className="card-body">
                         <h6 className="card-text">Découpe Laser</h6>
                     </div>
@@ -51,7 +77,7 @@ const Slicks2 = () => {
           </div>
           <div>
           <div className="card cardBorder" style={{width: '18rem'}}>
-                    <img className="card-img-top" src={slick2} alt=""/>
+                    <img className="card-img-top" style={{width:'100%'}} src={slick2} alt=""/>
                     <div className="card-body">
                         <h6 className="card-text">Usinage</h6>
                     </div>
@@ -59,7 +85,7 @@ const Slicks2 = () => {
           </div>
           <div>
           <div className="card cardBorder" style={{width: '18rem'}}>
-                    <img className="card-img-top" src={slick3} alt=""/>
+                    <img className="card-img-top" style={{width:'100%'}} src={slick3} alt=""/>
                     <div className="card-body">
                         <h6 className="card-text">Métal en feuille</h6>
                     </div>
